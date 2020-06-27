@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'BebasNeue-Regular';
+    src: url(fonts/bebasneue/BebasNeue-Regular.woff2) format('woff2'),
+         url(fonts/bebasneue/BebasNeue-Regular.woff) format('woff')
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(fonts/roboto/Roboto-Regular.ttf)
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(fonts/roboto/Roboto-Bold.ttf)
+}
+
+@font-face {
+    font-family: 'Septacharge-Regular';
+    src: url(fonts/septacharge/Septacharge.otf)
+}
+
+@font-face {
+    font-family: 'Keep-calm-Medium';
+    src: url(fonts/keep-calm/KeepCalm-Medium.ttf)
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto-Regular', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Keep-calm-Medium', 'BebasNeue-Regular', sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5em;
+}
+
+p {
+    font-size: 1.0rem;
+}

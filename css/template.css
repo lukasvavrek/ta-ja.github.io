@@ -1,3 +1,5 @@
+@import "fonts.css";
+
 body { 
     background: #f7f7f7; 
     margin: 0;
@@ -7,14 +9,11 @@ body {
     flex-direction: column;
 
     min-height: 100vh;
-
-    font-size: 16px;
-
-    font-family: 'Roboto', sans-serif;
- }
+}
 
 .content {
     flex-grow: 1;
+    margin-top: 16px;
 }
 
 footer {
@@ -27,21 +26,4 @@ footer .divider {
     height: 1px;
     background-color: #000;
     margin-bottom: 16px;
-}
-
-/* general styling */
-@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto:400,700');
-
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Oswald', sans-serif;
-}
-
-h1 {
-    font-size: 2rem;
-    margin-bottom: 0.5em;
-}
-
-p {
-    font-size: 1.0rem;
 }
