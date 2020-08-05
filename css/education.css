@@ -1,3 +1,13 @@
+.timeline-container {
+  width: auto;
+  margin: 0 16%;
+}
+
 .certifications {
     margin-top: 16px;
 }
+
+.tiemline-item {
+  padding-top: 16px;
+}
+

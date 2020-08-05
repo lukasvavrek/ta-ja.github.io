@@ -17,7 +17,7 @@
     margin: -0.5em 0 0 0;
     font-weight: bold;
     display: block;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 0.785rem;
 }
 
@@ -37,4 +37,15 @@
 
 .timeline-item:last-child {
     border-image: linear-gradient(to bottom, rgba(0, 0, 0, .3) 60%, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+.timeline-item .title h1 {
+    margin: 16px 0 8px 0;
+    color: var(--main-color);
+    font-weight: lighter;
+}
+
+.timeline-item .title p {
+    font-size: 1.3em;
+    margin: 0 0 8px 0;
 }
