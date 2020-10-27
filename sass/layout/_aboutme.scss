@@ -1,0 +1,11 @@
+.about-me {
+
+    @include padding-16p-sides;
+
+    padding-top: 4rem;
+
+    &__title {
+        margin-bottom: 1.6rem;
+    }
+}
+

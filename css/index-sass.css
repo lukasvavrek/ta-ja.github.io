@@ -1,0 +1,127 @@
+/*
+5BC0EB
+FDE74C
+9BC53D
+C3423F
+211A1E
+*/
+@import "fonts.css";
+@import "variables.css";
+/* TODO:
+ *
+ * extract common things to be extendable
+ * extract common valus to variables
+ * */
+/* core */
+body {
+  background: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex-grow: 1;
+  margin-top: 16px;
+}
+
+footer {
+  flex-shrink: 0;
+  text-align: center;
+  padding: 8px;
+}
+footer .divider {
+  height: 1px;
+  background-color: #000;
+  margin-bottom: 16px;
+}
+
+h1, h2, h3, h4, h5, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+/* about me */
+.intro-header {
+  height: 400px;
+  background-color: var(--main-color);
+  padding: 0 16%;
+  display: flex;
+}
+.intro-header div {
+  align-self: flex-start;
+}
+
+.profile-pic {
+  height: 360px;
+  width: 280px;
+  object-fit: cover;
+  border: #fff 8px solid;
+  margin: 64px 0 0 0;
+}
+
+.header-details {
+  margin: 112px 0 0 32px;
+  color: #fff;
+}
+
+.my-description p {
+  margin: 4px 0;
+}
+.my-description p .name {
+  color: var(--contrast-to-main);
+  font-weight: lighter;
+  font-size: 2.2em;
+}
+.my-description p .job {
+  font-size: 1.3em;
+  margin: 4px 0 16px 0;
+}
+.my-description p .location {
+  margin: 24px 0 0 0;
+}
+
+.contact-me {
+  color: var(--contrast-to-main);
+  font-size: 42px;
+  margin: 24px 16px 0 0;
+  width: 48px;
+}
+
+.contact-me a, .contact-me a:visited {
+  color: var(--contrast-to-main);
+}
+
+.contact-me a:hover, .contact-me a:focus {
+  color: var(--contrast-to-main-toggle);
+}
+
+.about-me {
+  padding: 0 16%;
+  margin-top: 64px;
+}
+
+.about-me h2 {
+  font-weight: lighter;
+  color: var(--main-color);
+  text-transform: uppercase;
+  margin: 0 0 16px 0;
+}
+
+.about-me p {
+  font-size: 1.2em;
+  margin: 24px 0;
+}
+
+section {
+  margin-bottom: 48px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.content-width {
+  padding-right: 16%;
+  padding-left: 16%;
+}
