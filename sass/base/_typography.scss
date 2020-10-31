@@ -3,7 +3,7 @@ body {
     font-weight: 400;
     /* font-size: 16px; */
     line-height: 1.7;
-    color: $color-grey-dark;
+    color: $color-grey-medium-dark;
 }
 
 .heading-primary {
@@ -23,6 +23,7 @@ body {
 .double-row-info {
     color: $color-white;
 
+    // should margins be there?
     margin-top: 1.6rem;
     margin-bottom: 1.0rem;
 
@@ -35,13 +36,15 @@ body {
 }
 
 .heading-secondary {
-    color: $color-grey-dark; // TODO: darker
+    color: $color-grey-very-dark; // TODO: darker
     font-size: 2.4rem;
+
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
 }
 
 .paragraph {
     // TODO: do we want to highlight spans?
-    color: $color-grey-dark; // TODO: darker
     font-size: 1.6rem;
     margin-bottom: 1.4rem;
 }

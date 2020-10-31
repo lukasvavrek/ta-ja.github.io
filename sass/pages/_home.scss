@@ -7,7 +7,7 @@ body {
         &:not(:first-of-type)::before {
             content: "";
             display: block;
-            border-top: 1px solid black;
+            border-top: 1px solid $color-grey-dark;
         }
     }
 }

@@ -2,10 +2,7 @@
 
     @include padding-16p-sides;
 
-    padding-top: 4rem;
-
-    &__title {
-        margin-bottom: 1.6rem;
-    }
+    // to compensate for overlapping picture
+    padding-top: 2rem;
 }
 
