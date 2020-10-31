@@ -1,0 +1,50 @@
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    /* font-size: 16px; */
+    line-height: 1.7;
+    color: $color-grey-medium-dark;
+}
+
+.heading-primary {
+    color: $color-white;
+    line-height: 1.4;
+
+    &--main {
+        font-size: 4.2rem;
+    }
+
+    &--sub {
+        display: block;
+        font-size: 2.4rem;
+    }
+}
+
+.double-row-info {
+    color: $color-white;
+
+    // should margins be there?
+    margin-top: 1.6rem;
+    margin-bottom: 1.0rem;
+
+    line-height: 1.4;
+
+    &--row {
+        display: block;
+        font-size: 1.6rem;
+    }
+}
+
+.heading-secondary {
+    color: $color-grey-very-dark; // TODO: darker
+    font-size: 2.4rem;
+
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.paragraph {
+    // TODO: do we want to highlight spans?
+    font-size: 1.6rem;
+    margin-bottom: 1.4rem;
+}

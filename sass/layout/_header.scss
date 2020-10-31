@@ -1,0 +1,30 @@
+.header {
+    height: 40rem;
+    padding-left: 16%;
+    padding-right: 16%;
+    background-color: $color-grey-very-dark;
+
+    @include clearfix;
+
+    &__my-photo-box {
+        height: 36rem;
+        width: 28rem;
+        border: #fff .8rem solid;
+
+        margin-top: 6.4rem;
+        float: left;
+        // TODO: add shadow
+    }
+
+    &__my-photo {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    &__personal-details {
+        margin-top: 10.2rem;
+        margin-left: 3.2rem;
+        float: left;
+    }
+}

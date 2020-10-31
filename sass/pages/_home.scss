@@ -1,0 +1,13 @@
+
+body {
+    // TODO: style properly and use variable to set color
+    .top-section {
+        @include padding-16p-sides;
+
+        &:not(:first-of-type)::before {
+            content: "";
+            display: block;
+            border-top: 1px solid $color-grey-dark;
+        }
+    }
+}
