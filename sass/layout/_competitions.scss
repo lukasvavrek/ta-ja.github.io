@@ -1,0 +1,41 @@
+
+// TODO: move all font sizes outside from layouts
+
+.competition-item {
+
+    &__header {
+        &__name {
+            font-size: 1.5rem;
+            float: left;
+        }
+        &__award {
+            float: left;
+            font-size: 1.5rem;
+            margin-left: 1.6rem;
+        }
+
+        @include clearfix;
+    }
+
+    &__details {
+        font-size: 1.4rem;
+    }
+
+    &__links {
+        font-size: 1.4rem;
+
+        a:link,
+        a:visited {
+            color: $color-grey-very-dark;
+        }
+
+        a:hover,
+        a:focus {
+            color: $color-grey-dark;
+        }
+    }
+
+    &:not(:first-child) {
+        margin-top: 1.4rem;
+    }
+}

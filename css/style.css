@@ -131,6 +131,35 @@ footer {
   .timeline-item__project:not(:first-child) {
     margin-top: 1.4rem; }
 
+.competition-item__header__name {
+  font-size: 1.5rem;
+  float: left; }
+
+.competition-item__header__award {
+  float: left;
+  font-size: 1.5rem;
+  margin-left: 1.6rem; }
+
+.competition-item__header::after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.competition-item__details {
+  font-size: 1.4rem; }
+
+.competition-item__links {
+  font-size: 1.4rem; }
+  .competition-item__links a:link,
+  .competition-item__links a:visited {
+    color: #211A1E; }
+  .competition-item__links a:hover,
+  .competition-item__links a:focus {
+    color: #777; }
+
+.competition-item:not(:first-child) {
+  margin-top: 1.4rem; }
+
 body .top-section {
   padding-left: 16%;
   padding-right: 16%; }
