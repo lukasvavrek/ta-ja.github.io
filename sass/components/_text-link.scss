@@ -1,0 +1,14 @@
+
+.text-link {
+    font-size: 1.4rem;
+
+    &:link,
+    &:visited {
+        color: $color-grey-very-dark;
+    }
+
+    &:hover,
+    &:focus {
+        color: $color-grey-dark;
+    }
+}

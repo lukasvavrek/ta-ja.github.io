@@ -21,20 +21,6 @@
         font-size: 1.4rem;
     }
 
-    &__links {
-        font-size: 1.4rem;
-
-        a:link,
-        a:visited {
-            color: $color-grey-very-dark;
-        }
-
-        a:hover,
-        a:focus {
-            color: $color-grey-dark;
-        }
-    }
-
     &:not(:first-child) {
         margin-top: 1.4rem;
     }

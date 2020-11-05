@@ -279,7 +279,7 @@
                 </p>
             </div>
             <div class="competition-item__links">
-                <a href="https://kpi.fei.tuke.sk/sk/zive-it-projekty-2019-vyhercovia">Post on university website</a>
+                <a class="text-link" href="https://kpi.fei.tuke.sk/sk/zive-it-projekty-2019-vyhercovia">Post on university website</a>
             </div>
         </div>
 
@@ -300,51 +300,68 @@
                 </p>
             </div>
             <div class="competition-item__links">
-                <a href="https://sarisskyhackathon.sk/projekty-1-sh-2018/">Post on organizators website</a>
+                <a class="text-link" href="https://sarisskyhackathon.sk/projekty-1-sh-2018/">Post on organizators website</a>
             </div>
         </div>
     </section>
 
-    <!--
-
-    <section class="timeline-container" id="education">
-        <h2>Education</h2>
-
-
-        <div class="timeline-item" timeline-header="May 2020 &bull; Master's degree">
-            <div class="title">
-                <h1>Technical University of Košice</h1>
-            </div>
-            <p>
-                I study Informatics, which is primarily focused on the computer engineering.<br/><br/>
-
-                Classes:
-                <ul>
-                    <li>semantics of programming languages</li>
-                    <li>distributed systems</li>
-                    <li>functional programming</li>
-                    <li>parallel computer systems</li>
-                    <li>stochastic modeling</li>
-                    <li>Application development for IoT</li>
-                    <li>parallel programming</li>
-                    <li>software system evolution</li>
-                    <li>type theory</li>
-                </ul>
-            </p>
+    <section class="education top-section">
+        <div class="education__title">
+            <h2 class="heading-secondary">Education</h2>
         </div>
 
-        <div class="timeline-item" timeline-header="June 2018 &bull; Bachelor's degree">
-            <div class="title">
-                <h1>Technical University of Košice</h1>
+        <div class="timeline-item">
+            <div class="timeline-item__header">
+                <h3 class="timeline-item__header__company">Technical University of Košice</h3>
+                <p class="timeline-item__header__position">May 2020 &bull; Master's degree</p>
+                <!-- <p class="timeline-item__header__employment-range">October 2019 - Present</p> -->
             </div>
-            <p>
-                I studied Informatics, which was primarily focused on the computer engineering.<br/><br/>
 
-                My bachelor's <a href="http://blog.lukasvavrek.com/static/bc-thesis.pdf"> thesis</a> and <a href="http://blog.lukasvavrek.com/static/bc-presentation.pdf"> presentation</a>.
+            <div class="timeline-item__project">
+                <p class="timeline-item__project__customer">Faculty of Electrical Engineering and Computer Science</p>
+                <div class="timeline-item__project__details">
+                    <p>I studied Informatics, which was primarily focused on the computer engineering.</p>
+                    <p>
+                        During my master thesis "Deep convolutional neural network for detection of pathological speech" I was researching
+                        the possibility to reuse existing pretrained CNN using transfer learning in order to adapt it to pathological speech detection problem.
+                    </p>
+                    <p>Link to the PDF: <a class="text-link" href="static/master-thesis.pdf">master-thesis.pdf</a></p>
+                </div>
+                <div class="timeline-item__project__key-points">
+                    <ul>
+                        <li>semantics of programming languages</li>
+                        <li>distributed systems</li>
+                        <li>functional programming</li>
+                        <li>parallel computer systems</li>
+                        <li>stochastic modeling</li>
+                        <li>Application development for IoT</li>
+                        <li>parallel programming</li>
+                        <li>software system evolution</li>
+                        <li>type theory</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
-                <p>
-                    </br>
-                    Classes:
+        <div class="timeline-item">
+            <div class="timeline-item__header">
+                <h3 class="timeline-item__header__company">Technical University of Košice</h3>
+                <p class="timeline-item__header__position">June 2018 &bull; Bachelor's degree</p>
+                <!-- <p class="timeline-item__header__employment-range">October 2019 - Present</p> -->
+            </div>
+
+            <div class="timeline-item__project">
+                <p class="timeline-item__project__customer">Faculty of Electrical Engineering and Computer Science</p>
+                <div class="timeline-item__project__details">
+                    <p>I studied Informatics, which was primarily focused on the computer engineering.</p>
+                    <p>
+                        During my bachelor thesis "Handling Network Communication Problems in Mobile Applications" I was developing a high level network library
+                        for iOS in Swift that solve some common reoccuring problems like ability to respond to lost/changed connection, API token expiration and authentication
+                        and error handling.
+                    </p>
+                    <p>Link to the PDF: <a class="text-link" href="static/bachelor-thesis.pdf">bachelor-thesis.pdf</a></p>
+                </div>
+                <div class="timeline-item__project__key-points">
                     <ul>
                         <li>algorithmization</li>
                         <li>electrical engineering</li>
@@ -367,36 +384,36 @@
                         <li>computer security</li>
                         <li>assembly language</li>
                     </ul>
-                </p>
-
-            </p>
+                </div>
+            </div>
         </div>
 
-        <div class="timeline-item" timeline-header="May 2015 &bull; Graduated">
-            <div class="title">
-                <h1>Secondary Technical School of Electrical Engineering, Prešov</h1>
+        <div class="timeline-item">
+            <div class="timeline-item__header">
+                <h3 class="timeline-item__header__company">Secondary Technical School of Electrical Engineering, Prešov</h3>
+                <p class="timeline-item__header__position">May 2015 &bull; Graduated</p>
+                <!-- <p class="timeline-item__header__employment-range">October 2019 - Present</p> -->
             </div>
 
-            <p>
-                I studied <span>Information and Network Technologies</span>.
-                Courses were focused on <span>Electrical engineering</span>, <span>Computer programming</span>, <span>Server management</span> and <span>Computer networking</span>.
-                I had an opportunity to grow on technical level, attempt some programming competitions and work on interesting projects.
-            </p>
-
-            <p>
-                </br>
-                Here are few projects, that I've been working on:
-
-                <ul>
-                    <li>project focused on creating SMART home and electical network, that would analyze and reduce usage of electical energy.</li>
-                    <li>application for visualization and time measurment of different data sorting algorithms.</li>
-                    <li>software for learning and practicing "all ten fingers" writing technique</li>
-                </ul>
-            </p>
+            <div class="timeline-item__project">
+                <p class="timeline-item__project__customer">Information and Network Technologies</p> <!-- TODO: write faculty and more details - FEI - Informatika -->
+                <div class="timeline-item__project__details">
+                    <p>
+                        Courses were focused on <span>Electrical engineering</span>, <span>Computer programming</span>, <span>Server management</span> and <span>Computer networking</span>.
+                        I had an opportunity to grow on technical level, attempt some programming competitions and work on interesting projects.
+                    </p>
+                </div>
+                <div class="timeline-item__project__key-points">
+                    <p>Here are few projects, that I've been working on:</p>
+                    <ul>
+                        <li>project focused on creating SMART home and electical network, that would analyze and reduce usage of electical energy.</li>
+                        <li>application for visualization and time measurment of different data sorting algorithms.</li>
+                        <li>software for learning and practicing "all ten fingers" writing technique</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
-
-    -->
 
         <footer>
             <div class="divider"></div>
@@ -404,5 +421,6 @@
         </footer>
     </body>
 </html>
+
 
 
